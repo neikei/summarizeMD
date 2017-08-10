@@ -1,22 +1,8 @@
-# Summary 
-
-- [summarizeMD](#summarizeMD)
-  - [Usage](#Usage)
-  - [Output](#Output)
-  - [Options](#Options)
-  - [Changelog](#Changelog)
-- [License](#License)
-  
-
-<div id='summarizeMD'/>
-
 # summarizeMD
 
 SummarizeMD is a simple Ruby script that generates a summary (TOC) and anchor links for an existing markdown document.
 
 - [Example Github page](https://neikei.github.io/notes/)
-
-<div id='Usage'/>
 
 ## Usage
 
@@ -25,8 +11,6 @@ wget https://github.com/neikei/summarizeMD/blob/master/summarizeMD.rb
 chmod +x summarizeMD.rb
 ./tools/summarizeMD.rb <source_file>.md
 ```
-
-<div id='Output'/>
 
 ## Output
 
@@ -56,8 +40,6 @@ sourcefile.md
 outputfile.md
 ```
 
-<div id='Options'/>
-
 ## Options
 
 You can launch script with some options (work in progress).
@@ -72,8 +54,6 @@ Run script verbosely printing some informations.
 Display list of available options.
 - **--version**
 Display script version.
-
-<div id='Changelog'/>
 
 ## Changelog
 
@@ -93,8 +73,6 @@ Display script version.
 
 - Version: 0.1.0
 - Initial creation by [velthune](https://github.com/velthune)
-
-<div id='License'/>
 
 # License
 
